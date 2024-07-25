@@ -163,13 +163,12 @@ La siguiente tabla proporciona un resumen de los operadores aritméticos de arre
 
 | Operador | Finalidad                         | Descripción                                                                               | Página de referencia |
 |----------|-----------------------------------|-------------------------------------------------------------------------------------------|----------------------|
-| +        | Adición                           | A+B suma A y B.                                                                           | [plus](https://la.mathworks.com/help/matlab/ref/plus.html) {target="_blank"} |
-| +        | Más unario                        | +A devuelve A.                                                                            | [uplus](https://la.mathworks.com/help/matlab/ref/uplus.html) {target="_blank"} |
-| -        | Sustracción                       | A-B resta B de A                                                                          | [minus](https://la.mathworks.com/help/matlab/ref/minus.html) {target="_blank"} |
-| -        | Menos unario                      | -A niega los elementos de A.                                                              | [uminus](https://la.mathworks.com/help/matlab/ref/uminus.html) {target="_blank"} |
-| .*       | Multiplicación elemento por elemento | A.*B es el producto elemento por elemento de A y B.                                        | [times](https://la.mathworks.com/help/matlab/ref/times.html) {target="_blank"} |
-| .^       | Potencia elemento por elemento    | A.^B es la matriz con los elementos A(i,j) a la potencia B(i,j).                           | [power](https://la.mathworks.com/help/matlab/ref/power.html) {target="_blank"} |
-| ./       | División derecha de arreglos      | A./B es la matriz con los elementos A(i,j)/B(i,j).                                        | [rdivide](https://la.mathworks.com/help/matlab/ref/ldivide.html) {target="_blank"} |
-| .\       | División izquierda de arreglos    | A.\B es la matriz con los elementos B(i,j)/A(i,j).                                        | [ldivide](https://la.mathworks.com/help/matlab/ref/ldivide.html) {target="_blank"} |
-| .'       | Trasposición de arreglos          | A.' es la traspuesta de arreglos de A. En matrices más complejas, esta no implica conjugación. | [transpose](https://la.mathworks.com/help/matlab/ref/transpose.html) {target="_blank"} |
-
+| +        | Adición                           | A+B suma A y B.                                                                           | <a href="https://la.mathworks.com/help/matlab/ref/plus.html" target="_blank">plus</a> |
+| +        | Más unario                        | +A devuelve A.                                                                            | <a href="https://la.mathworks.com/help/matlab/ref/uplus.html" target="_blank">uplus</a> |
+| -        | Sustracción                       | A-B resta B de A                                                                          | <a href="https://la.mathworks.com/help/matlab/ref/minus.html" target="_blank">minus</a> |
+| -        | Menos unario                      | -A niega los elementos de A.                                                              | <a href="https://la.mathworks.com/help/matlab/ref/uminus.html" target="_blank">uminus</a> |
+| .*       | Multiplicación elemento por elemento | A.*B es el producto elemento por elemento de A y B.                                        | <a href="https://la.mathworks.com/help/matlab/ref/times.html" target="_blank">times</a> |
+| .^       | Potencia elemento por elemento    | A.^B es la matriz con los elementos A(i,j) a la potencia B(i,j).                           | <a href="https://la.mathworks.com/help/matlab/ref/power.html" target="_blank">power</a> |
+| ./       | División derecha de arreglos      | A./B es la matriz con los elementos A(i,j)/B(i,j).                                        | <a href="https://la.mathworks.com/help/matlab/ref/rdivide.html" target="_blank">rdivide</a> |
+| .\       | División izquierda de arreglos    | A.\B es la matriz con los elementos B(i,j)/A(i,j).                                        | <a href="https://la.mathworks.com/help/matlab/ref/ldivide.html" target="_blank">ldivide</a> |
+| .'       | Trasposición de arreglos          | A.' es la traspuesta de arreglos de A. En matrices más complejas, esta no implica conjugación. | <a href="https://la.mathworks.com/help/matlab/ref/transpose.html" target="_blank">transpose</a> |
