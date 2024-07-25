@@ -34,3 +34,135 @@ ans =
 
      2     3     4
 ```
+
+Si un operando es un escalar y el otro no, MATLAB amplía el escalar de manera implícita para que sea del mismo tamaño que el otro operando. Por ejemplo, puede calcular el producto elemento por elemento de un escalar y una matriz.
+
+```matlab
+A = [1 2 3; 1 2 3]
+```
+
+```matlab
+A =
+
+     1     2     3
+     1     2     3
+```
+
+```matlab
+3.*A
+```
+
+```matlab
+ans =
+
+     3     6     9
+     3     6     9
+```
+
+La expansión implícita también funciona si se resta un vector de 1 por 3 de una matriz de 3 por 3, ya que los dos tamaños son compatibles. Al llevar a cabo la resta, el vector se ha ampliado de manera implícita para convertirlo en una matriz de 3 por 3.
+
+```matlab
+A = [1 1 1; 2 2 2; 3 3 3]
+```
+
+```matlab
+A =
+
+     1     1     1
+     2     2     2
+     3     3     3
+```
+```matlab
+m = [2 4 6]
+```
+
+```matlab
+A - m
+```
+
+```matlab
+ans =
+
+    -1    -3    -5
+     0    -2    -4
+     1    -1    -3
+```
+Un vector fila y un vector columna tienen tamaños compatibles. Si suma un vector de 1 por 3 y un vector de 2 por 1, cada vector se amplía de manera implícita a una matriz de 2 por 3 antes de que MATLAB ejecute la suma elemento por elemento.
+```matlab
+x = [1 2 3]
+```
+
+```matlab
+x =
+
+     1     2     3
+```
+
+```matlab
+y = [10; 15]
+```
+
+```matlab
+y =
+
+    10
+    15
+```
+
+```matlab
+x + y
+```
+
+```matlab
+ans =
+
+    11    12    13
+    16    17    18
+```
+
+Si los tamaños de los dos operandos son incompatibles, obtiene un error.
+
+```matlab
+A = [8 1 6; 3 5 7; 4 9 2]
+```
+
+```matlab
+A =
+
+     8     1     6
+     3     5     7
+     4     9     2
+```
+
+```matlab
+m = [2 4]
+```
+
+```matlab
+m =
+
+     2     4
+```
+
+```matlab
+A - m
+```
+
+```matlab
+Matrix dimensions must agree.
+```
+
+La siguiente tabla proporciona un resumen de los operadores aritméticos de arreglos en MATLAB. Para obtener información específica de la función, haga clic en el enlace a la página de referencia de la función en la última columna.
+
+| Operador | Finalidad                         | Descripción                                                                               | Página de referencia |
+|----------|-----------------------------------|-------------------------------------------------------------------------------------------|----------------------|
+| +        | Adición                           | A+B suma A y B.                                                                           | [plus](https://la.mathworks.com/help/matlab/ref/plus.html) {target="_blank"} |
+| +        | Más unario                        | +A devuelve A.                                                                            | [uplus](https://la.mathworks.com/help/matlab/ref/uplus.html) {target="_blank"} |
+| -        | Sustracción                       | A-B resta B de A                                                                          | [minus](https://la.mathworks.com/help/matlab/ref/minus.html) {target="_blank"} |
+| -        | Menos unario                      | -A niega los elementos de A.                                                              | [uminus](https://la.mathworks.com/help/matlab/ref/uminus.html) {target="_blank"} |
+| .*       | Multiplicación elemento por elemento | A.*B es el producto elemento por elemento de A y B.                                        | [times](https://la.mathworks.com/help/matlab/ref/times.html) {target="_blank"} |
+| .^       | Potencia elemento por elemento    | A.^B es la matriz con los elementos A(i,j) a la potencia B(i,j).                           | [power](https://la.mathworks.com/help/matlab/ref/power.html) {target="_blank"} |
+| ./       | División derecha de arreglos      | A./B es la matriz con los elementos A(i,j)/B(i,j).                                        | [rdivide](https://la.mathworks.com/help/matlab/ref/ldivide.html) {target="_blank"} |
+| .\       | División izquierda de arreglos    | A.\B es la matriz con los elementos B(i,j)/A(i,j).                                        | [ldivide](https://la.mathworks.com/help/matlab/ref/ldivide.html) {target="_blank"} |
+| .'       | Trasposición de arreglos          | A.' es la traspuesta de arreglos de A. En matrices más complejas, esta no implica conjugación. | [transpose](https://la.mathworks.com/help/matlab/ref/transpose.html) {target="_blank"} |
+
