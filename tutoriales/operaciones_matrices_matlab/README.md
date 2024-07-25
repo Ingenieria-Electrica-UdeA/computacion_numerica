@@ -8,8 +8,7 @@ Las operaciones con matrices siguen las reglas del álgebra lineal. Por el contr
 ## Operaciones con matrices
 Las operaciones con matrices siguen las reglas del álgebra lineal y no son compatibles con arreglos multidimensionales. El tamaño y la forma necesarios de las entradas relacionadas entre sí dependen de la operación. En caso de entradas no escalares, los operadores de matrices por lo general calculan diferentes respuestas a las de sus homólogos de los operadores de arreglos.
 
-Por ejemplo, si utiliza el operador de división derecha de matriz, /, para dividir dos matrices, estas deben tener el mismo número de columnas. Sin embargo, si utiliza el operador de multiplicación de matriz, *, para multiplicar dos matrices, las matrices deben tener una dimensión interna común. Es decir, el número de columnas de la primera entrada debe ser igual al número de filas de la segunda entrada. El operador de multiplicación de matriz calcula el producto de dos matrices con la fórmula, ![Formula](https://latex.codecogs.com/png.latex?C(i,j)=\sum_{k=1}^{n}A(i,k)B(k,j))
-
+Por ejemplo, si utiliza el operador de división derecha de matriz, /, para dividir dos matrices, estas deben tener el mismo número de columnas. Sin embargo, si utiliza el operador de multiplicación de matriz, *, para multiplicar dos matrices, las matrices deben tener una dimensión interna común. Es decir, el número de columnas de la primera entrada debe ser igual al número de filas de la segunda entrada. El operador de multiplicación de matriz calcula el producto de dos matrices.
 Para comprobarlo, puede calcular el producto de dos matrices.
 
 ```matlab
