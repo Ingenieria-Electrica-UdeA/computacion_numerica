@@ -62,7 +62,7 @@
   <a href="http://www.mathworks.com" target="_blank">http://www.mathworks.com</a>
   <img src="https://github.com/Ingenieria-Electrica-UdeA/banco_imagenes/raw/main/presentaciones/sitio-oficial-matlab.png" alt="Sitio oficial de MATLAB" style="width: auto">
 
-<h2>Python</h2>
+<h3>Python</h3>
 <a href="https://www.python.org/" target="_blank">https://www.python.org/</a>
 <img src="https://github.com/Ingenieria-Electrica-UdeA/banco_imagenes/raw/main/presentaciones/sitio-oficial-python-2.png" alt="Sitio oficial de Python" style="width: auto">
 <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank">https://www.lfd.uci.edu/~gohlke/pythonlibs/</a>
@@ -71,4 +71,8 @@
 <img src="https://github.com/Ingenieria-Electrica-UdeA/banco_imagenes/raw/main/presentaciones/aplicaciones-anaconda.png" alt="Aplicaciones de Anaconda" style="width: auto">
 <img src="https://github.com/Ingenieria-Electrica-UdeA/banco_imagenes/raw/main/presentaciones/ide-spyder-1.png" alt="IDE de Spyder" style="width: auto">
 
-<h2>CO: Colaboratory</h2>
+<h3>CO: Colaboratory</h3>
+<h3>Python Anywhere</h3>
+<h3>Python Tutor</h3>
+<h3>Python Online</h3>
+<h3>MATLAB</h3>
